@@ -15,7 +15,7 @@
 
                 int s = a;
                 for (int j = 0; j < n; j++) {
-                    s += (int) Math.pow(2, j) * b;
+                    s += (1 << j) * b;
                     System.out.print(s + " ");
                 }
                 System.out.println();
